@@ -189,3 +189,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+/**
+ * image galley open effect and close effect
+ */
+ var fullimgbox = document.getElementById("fullimgbox");
+ var fullimg = document.getElementById("fullimg");
+ function openimg(pic){
+  fullimgbox.style.display = "flex";
+  fullimg.src=pic;
+ }
+ function closeimg(){
+  fullimgbox.style.display = "none";
+
+ }
