@@ -695,6 +695,8 @@
   .team .team-member .member-img {
     position: relative;
     overflow: hidden;
+    padding-left: 67px;
+
   }
   
   
